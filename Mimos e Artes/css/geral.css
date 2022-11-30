@@ -13,13 +13,13 @@ body{
 
 header{
     grid-area: header;
-    background-color: rgb(230, 125, 212);
+    background: linear-gradient(#ec1bad, #f746c2);
     text-transform: uppercase;
     font-size: 25px;
     font-weight: bold;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
   }
 
 header div{
@@ -34,7 +34,7 @@ aside{
   }
   
   aside{
-    background-color: rgb(212, 150, 209);;
+    background: linear-gradient(#f3549e, #f74ada);
     border-bottom: 1px  solid black;
     border-top: 1px  solid black;
   }
@@ -56,4 +56,28 @@ aside{
   aside nav ul li a:hover {
       color: rgb(204, 43, 137);
       text-decoration: underline;
+  }
+
+  @media (max-width: 480px){
+    .text-presentation{
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px){
+    .text-presentation{
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 1024px){
+    .text-presentation{
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 1200px){
+    .text-presentation{
+      width: 100%;
+    }
   }

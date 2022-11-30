@@ -1,0 +1,31 @@
+section{
+    padding: 30px;
+    border-bottom: 2px dashed black;
+  }
+
+.logo-principal{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+
+.apresentação{
+    width: 50%;
+}
+
+#mimos{
+    display: flex;
+}
+
+.artes{
+    display: flex;
+}
+
+.text-presentation{
+    display: flex;
+}
+
+.apresentação{
+    text-decoration: underline;
+    padding: 20px;
+  }
