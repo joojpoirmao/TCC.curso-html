@@ -1,0 +1,29 @@
+.subtitulo{
+    display: flex;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.coisa{
+    display: flex;
+    flex-direction: row;
+}
+
+.coisinhas{
+    margin: 0px 20px;
+}
+
+main ul li h2{
+    display: flex;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+main ul li p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

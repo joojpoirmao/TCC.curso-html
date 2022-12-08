@@ -1,83 +1,79 @@
-body{
-    display: grid;
-
-    grid-template-areas: 
-    "header header"
-    "nav nav"
-    "main main"
-    "footer footer";
-
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 300px 40px 1fr 300px;
-}
-
 header{
-    grid-area: header;
-    background: linear-gradient(#D97791, #FCA194);
-    text-transform: uppercase;
-    font-size: 25px;
-    font-weight: bold;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    justify-content: space-around;
-  }
+  display: flex;
+  
+ /* background: linear-gradient(#D97791, #FCA194); */
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:Verdana, Tahoma, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 0px 50px 0px;
+}
 
 header div{
-    align-self: center;
+  align-self: center;
 }
 
-aside{
-    grid-area: nav;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  aside{
-    background: linear-gradient(#FCA194, #D97791);
-    border-bottom: 1px  solid black;
-    /* border-top: 1px  solid black; */
-  }
-  
-  aside nav ul{
-    display: flex;
-  }
+.logo-principal{
+  display: flex;
+  border: black solid;
+  border-radius: 9px;
+  width: 200px;
+  height: 200px;
+}
 
-  aside nav ul li a{
-    margin: 8px;
-    color: black;
-    text-transform: uppercase;
-    text-shadow: 100px;
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: none;
-  }
-  
-  aside nav ul li a:hover {
-      color: rgb(204, 43, 137);
-      text-decoration: underline;
-  }
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-bottom: 2px dashed black;
+}
 
-  @media (max-width: 480px){
-    .text-presentation{
-      width: 100%;
-    }
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-style: italic;
+
+  background-image: url(./img/footerlogo.png);
+  background-color: black;
+}
+
+footer div p{
+  color: white;
+}
+
+.footer-img{
+  display: flex;
+  height: 200px;
+  width: 200px;
+}
+
+@media (max-width: 480px){
+  .text-presentation{
+    width: 100%;
   }
-  
-  @media (max-width: 768px){
-    .text-presentation{
-      width: 100%;
-    }
+}
+
+@media (max-width: 768px){
+  .text-presentation{
+    width: 100%;
   }
-  
-  @media (max-width: 1024px){
-    .text-presentation{
-      width: 100%;
-    }
+}
+
+@media (max-width: 1024px){
+  .text-presentation{
+    width: 100%;
   }
-  
-  @media (max-width: 1200px){
-    .text-presentation{
-      width: 100%;
-    }
+}
+
+@media (max-width: 1200px){
+  .text-presentation{
+    width: 100%;
   }
+}
