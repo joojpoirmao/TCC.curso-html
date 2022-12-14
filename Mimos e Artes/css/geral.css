@@ -31,7 +31,7 @@ header div{
 
 .Position-Itens{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-items: end;
   font-weight: bold;
   font-size: large;
