@@ -7,6 +7,8 @@ header{
 
 header div h1{
   display: flex;
+  justify-content: center;
+  align-items: center;
   text-transform: uppercase;
   font-size: 20px;
   font-weight: bold;
@@ -21,6 +23,7 @@ header div h1{
 header div{
   align-self: center;
   margin-right: 40px;
+  width: 400px;
 }
 
 .logo-principal{
@@ -29,13 +32,18 @@ header div{
   height: 120px;
 }
 
-.Position-Itens{
-  display: flex;
-  flex-direction: row;
-  justify-items: end;
+.Position-Itens li a{
+  text-decoration: none;
+  text-transform: none;
+  color: black;
   font-weight: bold;
   font-size: large;
-  text-decoration-color: black;
+}
+
+.Position-Itens{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main{
@@ -46,8 +54,11 @@ main{
   padding: 50px;
   border-bottom: 2px dashed black;
 }
-
 footer{
+  background-color: black;
+}
+
+footer section{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,17 +67,24 @@ footer{
   font-style: italic;
 
   background-image: url(./img/footerlogo.png);
-  background-color: black;
-}
 
-footer div p{
   color: white;
 }
 
+
 .footer-img{
-  display: flex;
   height: 200px;
   width: 200px;
+}
+
+.zap{
+  width: 40px;
+  height: 40px;
+}
+
+.div-zap{
+  display: flex;
+  justify-content: end;
 }
 
 @media (max-width: 480px){
