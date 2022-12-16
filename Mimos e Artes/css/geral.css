@@ -1,6 +1,6 @@
 header{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   border-bottom: 2px  solid black;
   padding: 0px 0px 0px 0px;
 }
@@ -10,26 +10,27 @@ header div h1{
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
-  font-family:Verdana, Tahoma, sans-serif;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.Position-Itens:hover {
-  color: darkred;
+.Position-Itens li a:hover {
+  color: pink;
   text-decoration: underline;
 }
 
 header div{
   align-self: center;
-  margin-right: 40px;
-  width: 400px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .logo-principal{
   display: flex;
   width: 120px;
   height: 120px;
+  margin-left: 50px;
 }
 
 .Position-Itens li a{
@@ -38,6 +39,8 @@ header div{
   color: black;
   font-weight: bold;
   font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 10px;
 }
 
 .Position-Itens{
@@ -58,15 +61,13 @@ footer{
   background-color: black;
 }
 
-footer section{
+.footer{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
   font-style: italic;
-
-  background-image: url(./img/footerlogo.png);
 
   color: white;
 }
@@ -77,14 +78,31 @@ footer section{
   width: 200px;
 }
 
+.zap:active{
+
+}
+
 .zap{
+  width: 40px;
+  height: 40px;
+  /* margin-right: 10px; */
+  
+}
+
+.insta:active{
+  
+}
+
+.insta{
   width: 40px;
   height: 40px;
 }
 
-.div-zap{
+.contatos{
   display: flex;
+  width: 160px;
   justify-content: end;
+  flex-direction: row;
 }
 
 @media (max-width: 480px){

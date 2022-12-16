@@ -21,7 +21,7 @@ main section div ul li{
     margin: 10px;
 }
 
-.video{
+main section iframe{
     display: flex;
     border-top: 10px;
     border: 5px solid black;
