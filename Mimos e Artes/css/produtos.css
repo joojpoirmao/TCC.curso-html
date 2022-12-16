@@ -32,6 +32,25 @@
     height: 300px;
 }
 
+.img3{
+    width: 300px;
+    height: 300px;
+}
+
+.img4{
+    width: 300px;
+    height: 300px;
+}
+
+.img5{
+    width: 300px;
+    height: 300px; 
+}
+
+.img6{
+    width: 300px;
+    height: 300px; 
+}
 .border{
     border: 1px solid black;
 }
@@ -48,7 +67,7 @@
   
   .card:hover{
     transform: scale(1.1);
-    border-color: red;
+    border-color: pink;
   }
 
 main ul li h2{
